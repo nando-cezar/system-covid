@@ -27,9 +27,9 @@ function Main() {
     <ContainerStyled>
       <div className="mb-2">
         <Panel
-          data={data}
           updateAt={updateAt}
           onChange={handleChange}
+          data={data}
           country={country}
           getCovidData={getCovidData}
         />
